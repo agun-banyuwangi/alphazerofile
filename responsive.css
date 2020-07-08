@@ -1,0 +1,543 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* css variables */
+:root {
+  --orange: #fca311;
+  --dark: #3a3d3e;
+  --green: #698f3f;
+  --mainblue: #81cfe0;
+  --skyBlue: #47a3da;
+  --purple: #be90d4;
+  --red: #c0392b;
+  --black: #101010;
+  --lightGrey: #6b6b6b;
+  --offWhite: #eeeeee;
+  --yellow: #f5d76e;
+  --white: white;
+  --grey: #6c7a89;
+  --darkGrey: #4d4d4d;
+  --box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+@media only screen and(max-width:1366px) {
+  .button .hvr-shutter-out-horizontal {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .hero {
+    height: auto;
+  }
+  .image,
+  .portfolio-image {
+    width: 100%;
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .portfolio-description {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-top: -60px;
+  }
+
+  .image-description {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -60px;
+    width: 100%;
+  }
+  .work-content-top img,
+  .work-content img {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 955px) {
+  .twelve,
+  .eleven,
+  .ten,
+  .nine,
+  .eight,
+  .seven,
+  .six,
+  .five,
+  .five-offset,
+  .four,
+  .three,
+  .two,
+  .one {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image,
+  .portfolio-image {
+    width: 100%;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+  .portfolio-description {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-top: -60px;
+  }
+
+  .image-description {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -60px;
+  }
+
+  footer .three {
+    width: 33%;
+    text-align: justify;
+  }
+  footer .mission {
+    width: 66.66%;
+    margin-top: 30px;
+    text-align: left;
+  }
+  footer h1 {
+    font-size: 16px;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  footer p,
+  footer li {
+    font-size: 14px;
+  }
+  footer .last {
+    padding-bottom: 30px;
+  }
+  footer {
+    height: 400px;
+  }
+  #contact-form {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+  .type-wrap {
+    font-size: 34px;
+  }
+  .tagline ul li {
+    font-size: 22px;
+  }
+  a.reverse-button,
+  a.reverse-button-2 {
+    font-size: 15px;
+  }
+  .left.clever-box {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .clever-box {
+    width: 48%;
+    margin: 0;
+  }
+  .middle {
+    margin-right: 4%;
+  }
+
+  .button {
+    position: relative;
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .btn-cta {
+    position: relative;
+    position: relative;
+    display: block;
+    width: 70%;
+    margin-top: 15px;
+    padding-left: 1rem;
+  }
+
+  .btn {
+    position: relative;
+    display: block;
+    width: 55%;
+    margin-top: 15px;
+    padding-left: 1rem;
+  }
+
+  .cta {
+    padding-bottom: 1rem;
+  }
+
+  .rationale h1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 29px;
+  }
+
+  .site-description p {
+    letter-spacing: 0.09rem;
+    line-height: 1.3rem;
+  }
+
+  .site-description h2 {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    height: 80px;
+    width: 100px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  .homepage {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .image-description h1,
+  .portfolio-description h1,
+  .hire-background h1 {
+    font-size: 34px;
+  }
+  .hire-content {
+    text-align: center;
+    margin-left: 0;
+    padding-right: 0px;
+  }
+  .hire-icon,
+  h2.left-content {
+    float: none;
+    padding: 0;
+  }
+  h2.left-content {
+    margin-top: 5px;
+  }
+  #contact-form {
+    text-align: left;
+  }
+  p.left-content {
+    width: 100%;
+    margin-top: 20px;
+    clear: none;
+    margin-left: 0;
+  }
+
+  .banner {
+    height: 100px;
+  }
+  .hire-top-container,
+  .hire-bottom-container {
+    width: 100%;
+  }
+
+  .hire-bottom-container {
+    clear: both;
+  }
+  p.left-content {
+    text-align: center;
+  }
+  .hire-bottom-container p {
+    margin-bottom: 0;
+  }
+  .hire-left,
+  .hire-right {
+    float: left;
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hire-right {
+    margin-left: 4%;
+  }
+  h2.left-content {
+    font-size: 22px;
+  }
+
+  .five-hire,
+  .seven-hire {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--green);
+    background-image: url('../images/asfalt-dark.png');
+  }
+  nav ul {
+    text-align: center;
+  }
+
+  .brand-logo-text {
+    margin-left: -10px;
+  }
+
+  .title {
+    margin-left: -8px;
+  }
+
+  .branding {
+    float: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .logo-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .circle,
+  .brand-name-container {
+    float: none;
+    margin-top: 0;
+  }
+  .brand-name-container {
+    text-align: center;
+  }
+  .circle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header {
+    height: 200px;
+    padding-top: 20px;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .vertical-center {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner h1 {
+    padding-top: 40px;
+  }
+  .type-wrap {
+    font-size: 34px;
+  }
+  .tagline ul li {
+    font-size: 22px;
+  }
+
+  .tagline h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .tagline h3 {
+    font-weight: 300;
+  }
+
+  .banner h1 {
+    font-size: 29px;
+  }
+
+  .left.clever-box,
+  .clever-box {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .clever-wrap {
+    margin-bottom: 0;
+  }
+  nav ul li {
+    padding-bottom: 10px;
+  }
+
+  footer {
+    height: 600px;
+    padding: 50px 5% 0 5%;
+  }
+  footer .three {
+    width: 100%;
+    margin: 0;
+  }
+  footer h1,
+  footer ul {
+    text-align: center;
+  }
+  footer h1 {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+  }
+
+  .bottom-panel h1,
+  .quote-panel h1 {
+    font-size: 30px;
+  }
+  .bottom-panel h2,
+  blockquote {
+    font-size: 20px;
+  }
+  blockquote:before,
+  blockquote:after {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .header {
+    height: 330px;
+  }
+  .title {
+    margin-left: 18px;
+  }
+  .type-wrap {
+    font-size: 24px;
+  }
+  .tagline ul li {
+    font-size: 18px;
+  }
+  .banner h1 {
+    font-size: 23px;
+  }
+  a.reverse-button {
+    font-size: 12px;
+    padding: 8px;
+    line-height: 8px;
+  }
+  .bottom-panel h1,
+  .quote-panel h1 {
+    font-size: 30px;
+  }
+  .bottom-panel h2,
+  blockquote {
+    font-size: 25px;
+    /* line-height: 2rem; */
+  }
+  .vertical-center {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .banner h1 {
+    font-size: 25px;
+  }
+
+  .image-description h1,
+  .portfolio-description h1,
+  .hire-background h1 {
+    font-size: 30px;
+  }
+  h2.left-content {
+    font-size: 22px;
+  }
+  .tagline ul li {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+  .type-wrap {
+    font-size: 28px;
+  }
+  .tagline li {
+    margin-bottom: 10px;
+  }
+
+  .headline {
+    padding-right: 15px;
+  }
+
+  a.reverse-button {
+    font-size: 14px;
+    padding: 10px;
+    line-height: 10px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .icon {
+    height: 70px;
+    width: 100px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  nav li a {
+    font-size: 16px;
+  }
+  nav {
+    margin-top: 8px;
+  }
+
+  .hire-left,
+  .hire-right {
+    width: 100%;
+    text-align: center;
+  }
+  .hire-right {
+    margin-left: 0;
+  }
+  .hire-bottom-container p,
+  .hire-top-container p {
+    margin-bottom: 40px;
+  }
+  .hire-bottom-container {
+    padding-top: 0;
+  }
+  p.left-content {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .header {
+    height: 330px;
+  }
+  .type-wrap {
+    font-size: 24px;
+  }
+  .tagline ul li {
+    font-size: 18px;
+  }
+  .banner h1 {
+    font-size: 23px;
+  }
+  a.reverse-button {
+    font-size: 12px;
+    padding: 8px;
+    line-height: 8px;
+  }
+  .bottom-panel h1,
+  .quote-panel h1 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .bottom-panel h2,
+  blockquote {
+    font-size: 15px;
+    /* line-height: 1.5rem; */
+  }
+  .vertical-center {
+    width: 100%;
+    /* height: 100%; */
+  }
+}
